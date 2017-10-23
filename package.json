@@ -1,0 +1,28 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "Using generator ES6, Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -S"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phambaonam/generator.git"
+  },
+  "keywords": [
+    "ES6",
+    "generator",
+    "node.js"
+  ],
+  "author": "Pham Bao Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phambaonam/generator/issues"
+  },
+  "homepage": "https://github.com/Phambaonam/generator#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0"
+  }
+}
