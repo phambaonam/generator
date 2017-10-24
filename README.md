@@ -1,23 +1,4 @@
 ## Iterables và iterators trong ES6
-https://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
-https://kipalog.com/posts/function--va-yield-trong-Javascript-generator-function
-https://nodejs.vn/topic/386/work-flow-c%E1%BB%A7a-function-generator-trong-es6
-https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Statements/function*
-https://pusher.com/sessions/meetup/london-node-user-group/promises-and-generators-in-nodejs
-https://www.sitepoint.com/6-nodejs-static-site-generators/
-https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Global_Objects/Generator
-https://davidwalsh.name/es6-generators
-https://davidwalsh.name/async-generators
-https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435
-
-https://viblo.asia/p/generator-trong-javasccript-WEMGBjjVGQK
-https://viblo.asia/p/iterator-in-javascript-XQZGxAdLewA
-https://blog.topdev.vn/cung-kham-pha-suc-manh-cua-es6-generators/
-https://gist.github.com/ericelliott/890c20d18bcc4362048dba2dca8e67ac
-
-https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e
-
-
 * Iterators là một bộ duyệt dùng để duyệt qua một mảng, một danh sách hoặc một collection mà qua mỗi lần duyệt sẽ ghi lại vị trí đã duyệt để từ đó có thể biết và lấy vị trí tiếp theo.
 
 ###  Cần phân biệt Iterable và Iterator protocol
@@ -368,4 +349,29 @@ https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0
 
 ## ==> Generators cũng chính là Iterators
 ![funny](./images/funny.gif)
-  
+
+## Một số thư viện có thể dùng với generator:
+* [co](https://github.com/tj/co)
+* [Promise.coroutine của thư viện bluebird](http://bluebirdjs.com/docs/api/promise.coroutine.html)
+* [db.task() của thư viện pg-promise](http://vitaly-t.github.io/pg-promise/Database.html#task)
+* [Tham khảo thêm bài này](http://tobyho.com/2015/12/27/promise-based-coroutines-nodejs/)
+
+### Tài liệu tham khảo
+* https://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
+* https://kipalog.com/posts/function--va-yield-trong-Javascript-generator-function
+* https://nodejs.vn/topic/386/work-flow-c%E1%BB%A7a-function-generator-trong-es6
+* https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Statements/function
+* https://pusher.com/sessions/meetup/london-node-user-group/promises-and-generators-in-nodejs
+* https://www.sitepoint.com/6-nodejs-static-site-generators/
+* https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Global_Objects/Generator
+* https://davidwalsh.name/es6-generators
+* https://davidwalsh.name/async-generators
+* https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435
+
+* https://viblo.asia/p/generator-trong-javasccript-WEMGBjjVGQK
+* https://viblo.asia/p/iterator-in-javascript-XQZGxAdLewA
+* https://blog.topdev.vn/cung-kham-pha-suc-manh-cua-es6-generators/
+* https://gist.github.com/ericelliott/890c20d18bcc4362048dba2dca8e67ac
+
+* https://medium.com/@rdsubhas/es6-from-callbacks-to-promises-to-generators-87f1c0cd8f2e
+* https://www.sitepoint.com/javascript-generators-preventing-callback-hell/

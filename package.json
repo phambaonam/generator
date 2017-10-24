@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Phambaonam/generator#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "co": "^4.6.0",
     "request": "^2.83.0"
   }
 }
